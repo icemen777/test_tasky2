@@ -37,13 +37,13 @@
     </div>
 </nav>
 <main class="main-content container" style="min-height: 570px">
-    <?php include 'application/views/' . $content_view; ?>
+    <?php include 'app/views/' . $content_view; ?>
 
 
 </main>
 
 <footer class="container">
-    <?php include 'application/views/footer.php'; ?>
+    <?php include 'app/views/footer.php'; ?>
 </footer>
 
 <!-- Optional JavaScript -->
