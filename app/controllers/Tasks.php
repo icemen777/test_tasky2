@@ -63,9 +63,9 @@ class Tasks extends \Core\Controller
 
 
         echo $this->template('tasks', array(
-            'title' => 'Тестовая страница',
-            'pagetitle' => 'Тестовая страница',
-            'content' => 'Какой-то контент',
+            'title' => 'Список задач',
+            'pagetitle' => 'Список задач',
+            'content' => '',
             'sorting' => $sorting,
             'urlline'=> $urlline,
             'items' => $models,

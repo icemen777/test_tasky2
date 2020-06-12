@@ -15,7 +15,7 @@
                     <span class="btn btn-info">Updated</span>
                 {/if}
             </div>
-            <p>{$item.id}-<a href="/task/{$item.id}">{$item.username}</a></p>
+            <p><a href="/task/{$item.id}">{$item.username}</a></p>
             <p>{$item.email}</p>
         </div>
         <div class="card-body">
