@@ -2,21 +2,31 @@
 
 namespace App\Models;
 
-use App\Core\Model;
+use PDO;
 
-class Task extends Model
+/**
+ * Example user model
+ *
+ * PHP version 7.0
+ */
+class Task extends \Core\Model
 {
+    protected static $tbname = 'tasks';
+
     public $id;
-    public $userName;
+    public $username;
+    public $tasktext;
     public $email;
-    public $taskText;
+    public $status;
 
     public function fieldsTable(){
         return array(
             'id' => 'Id',
-            'username' => 'User name',
-            'email' => 'email',
-            'tasktext' => 'Task text'
+            'username' => 'User Name',
+            'email' => 'E-Mail',
+            'tasktext' => 'Text Task',
+            'status' => 'Status',
         );
     }
+
 }
