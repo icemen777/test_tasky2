@@ -1,0 +1,21 @@
+.glyphicon {
+    font-size: 50%;
+}
+form {
+    margin-bottom: 1px;
+}
+
+form.arrowbut button.btn {
+    display: block;
+    padding: 4px 10px ;
+    margin: 1px;
+    line-height: 4px;
+}
+
+.form-check-label {
+    font-size: 70%;
+}
+
+#addtaskform, #hide_addtask_button {
+    display: none;
+}

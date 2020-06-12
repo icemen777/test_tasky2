@@ -1,0 +1,13 @@
+{
+    "require": {
+        "fenom/fenom": "2.*",
+        "amstaffix/pagination": "^1.1",
+        "respect/validation": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    }
+}
