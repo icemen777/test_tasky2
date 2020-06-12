@@ -24,13 +24,11 @@ ini_set('display_startup_errors', 1);
 set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
 
-
+/* Константы для работы Fenom шаблонизатора */
     define('PROJECT_BASE_PATH', $rootpath . '/');
 	define('PROJECT_CORE_PATH', PROJECT_BASE_PATH . '/');
 	define('PROJECT_TEMPLATES_PATH', PROJECT_CORE_PATH . 'Templates/');
 	define('PROJECT_CACHE_PATH', PROJECT_CORE_PATH . 'Cache/');
-
-
 	define('PROJECT_FENOM_OPTIONS', \Fenom::AUTO_RELOAD | \Fenom::FORCE_VERIFY);
 
 
