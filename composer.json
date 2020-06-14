@@ -1,5 +1,6 @@
 {
     "require": {
+        "php": ">=7.0",
         "fenom/fenom": "2.*",
         "amstaffix/pagination": "^1.1",
         "respect/validation": "^2.0"
